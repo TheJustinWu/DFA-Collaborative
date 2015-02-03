@@ -47,6 +47,12 @@
 #   end
 # end
 
+# github project pages deploy
+# activate :deploy do |deploy|
+#  deploy.method = :git
+#  deploy.build_before = true # default: false
+#end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
